@@ -1,6 +1,8 @@
 echo "# tf-demo1" >> README.md
 git init
 git add README.md
+git config --global user.email "sandip_pal@ymail.com"
+git config --global user.name "sandip_pal"
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/sandippal-git/tf-demo1.git
